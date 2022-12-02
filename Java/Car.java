@@ -6,9 +6,9 @@ public class Car {
     Account driver;
     Integer passenger;
     
-    public Car (String license2, Account driver2){
-        this.license = license2;
-        this.driver = driver2;
+    public Car (String l, Account d){
+        this.license = l;
+        this.driver = d;
     }
 
     void printDataCar(){

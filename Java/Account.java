@@ -7,8 +7,8 @@ public class Account {
     String email;
     String password;
 
-    public Account (String name2, String document2) {
-        this.name = name2;
-        this.document = document2;
+    public Account (String n, String d) {
+        this.name = n;
+        this.document = d;
     }
 }
