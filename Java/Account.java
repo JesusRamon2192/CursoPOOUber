@@ -6,4 +6,9 @@ public class Account {
     String document;
     String email;
     String password;
+
+    public Account (String name2, String document2) {
+        this.name = name2;
+        this.document = document2;
+    }
 }
