@@ -2,12 +2,13 @@ package Java;
 
 class main {
     public static void main(String[] args) {
-       Car car = new Car("AMQ123", new Account("Andres Herrera", "AND123"));
-       car.passenger = 4;
-       car.printDataCar();
+       UberX uber = new UberX("AMQ123", new Account("Andres Herrera", "AND123"), "Chevrolet", "Spark");
+       //uber.passenger = 4;
+       uber.setPassenger(4);
+       uber.printDataCar();
 
-       Car car2 = new Car("QWE567", new Account("Andrea Herrera", "AHS345"));
+       /* Car car2 = new Car("QWE567", new Account("Andrea Herrera", "AHS345"));
        car2.passenger = 3;
-       car2.printDataCar();
+       car2.printDataCar(); */
     }
 }
