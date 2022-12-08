@@ -1,10 +1,10 @@
 package Java;
 
 public class Car {
-    Integer id;
-    String license;
-    Account driver;
-    private Integer passenger;
+    private Integer id;
+    private String license;
+    private Account driver;
+    protected Integer passenger;
     
     public Car (String l, Account d){
         this.license = l;
@@ -29,4 +29,30 @@ public class Car {
             System.out.println("Necesitas asignar 4 pasajeros");
         }
     }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getLicense() {
+        return license;
+    }
+
+    public Account getDriver() {
+        return driver;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setLicense(String license) {
+        this.license = license;
+    }
+
+    public void setDriver(Account driver) {
+        this.driver = driver;
+    }
+
+    
 }
