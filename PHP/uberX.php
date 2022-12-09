@@ -9,5 +9,12 @@ class Uberx extends Car {
         $this->brand = $b;
         $this->model = $m;
     }
+
+    public function PrintDataCar(){
+        echo '<p>License: ' . $this->license . '</p>';
+        echo '<p>Driver Name: ' . $this->driver->name . '</p>';
+        echo '<p>Passengers: ' . $this->brand . '</p>';
+        echo "<p>Material: " . $this->model . '<p>';
+    }
 }
 ?>
